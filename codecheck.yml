@@ -1,0 +1,5 @@
+build:
+  - sbt stage
+env:
+  APP_COMMAND: target/universal/stage/bin/myapp
+test: mocha
