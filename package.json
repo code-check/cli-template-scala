@@ -1,0 +1,29 @@
+{
+  "name": "codecheck-cli-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "codecheck"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-check/cli-template-scala.git"
+  },
+  "keywords": [
+    "codecheck",
+    "cli",
+    "scala"
+  ],
+  "author": "Givery Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-check/cli-template-scala/issues"
+  },
+  "homepage": "https://github.com/code-check/cli-template-scala#readme",
+  "dependencies": {  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "codecheck": "^0.5.3"
+  }
+}

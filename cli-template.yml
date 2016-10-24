@@ -2,10 +2,8 @@ build:
   - sbt stage
 files:
   - .gitignore
-  - src/main/scala/App.scala
-  - src/main/scala/Main.scala
-  - src/main/scala/Parameters.scala
   - build.sbt
   - project/plugins.sbt
-main: src/main/scala/App.scala
-command: target/universal/stage/bin/myapp
+  - src/main/scala/Main.scala
+main: src/main/scala/Main.scala
+command: target/universal/stage/bin/theapp

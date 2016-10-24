@@ -1,25 +1,19 @@
-# CLI template for Scala
+# Command line application template for Scala
 
-This is template app for making CLI application with Scala.  
-You can make CLI application by editing [src/main/scala/App.scala](src/main/scala/App.scala)
-
-This app uses [scopt](https://github.com/scopt/scopt) to parse command line parameters.  
-You can parse any additional option parameters by editing [Parameter.scala](src/main/scala/Parameters.scala)
+Implement CLI application by editing [App.java](src/main/scala/Main.scala)
 
 ## How to get input parameters
-As default, Parameters has all commandline parameters as args: Array[String].
+You can get arguments as `args` in `main` method.
 
 ``` scala
-object App {
-  def apply(params: Parameters) = {
-    params.args.foreach(println)
-  }
+def main(args: Array[String]): Unit = {
+  // code to run
 }
 ```
 
 ## How to output result
-You can use `println` method
+You can use `println` method to output your result into stdout.
 
 ``` scala
-  println(params.args(0))
+println("Hellow world")
 ```
