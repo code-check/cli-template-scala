@@ -17,3 +17,8 @@ You can use `println` method to output your result into stdout.
 ``` scala
 println("Hellow world")
 ```
+
+## Install External Libraries
+If you want to use external libraries, do the following:
+
+- Add dependencies settings in [build.sbt](build.sbt)

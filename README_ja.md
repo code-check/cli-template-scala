@@ -18,3 +18,7 @@ def main(args: Array[String]): Unit = {
 ``` scala
   println(params.args
 ```
+## 外部ライブラリの追加方法
+外部ライブラリを使用する場合は以下の手順で実施してください。
+
+- [build.sbt](build.sbt) に依存ライブラリの追加
