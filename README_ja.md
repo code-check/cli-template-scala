@@ -16,7 +16,7 @@ def main(args: Array[String]): Unit = {
 標準の `println` メソッド等が使用可能です。
 
 ``` scala
-  println(params.args
+println(params.args)
 ```
 ## 外部ライブラリの追加方法
 外部ライブラリを使用する場合は以下の手順で実施してください。
