@@ -1,6 +1,6 @@
 # コマンドラインアプリケーション(CLI アプリ)作成用テンプレート(Scala)
 
-[Main.scala](src/main/scala/Main.java)を編集して、CLIアプリを実装してください。  
+[Main.scala](src/main/scala/Main.scala)を編集して、CLIアプリを実装してください。  
 チャレンジ内でファイルの作成が許可されていれば、可読性等のためにファイルを分割する事も可能です。
 
 ## コマンドライン引数の取得方法

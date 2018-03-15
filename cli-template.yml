@@ -1,9 +1,13 @@
 build:
   - sbt stage
 files:
-  - .gitignore
   - build.sbt
   - project/plugins.sbt
   - src/main/scala/Main.scala
 main: src/main/scala/Main.scala
 command: target/universal/stage/bin/theapp
+envConf:
+  imageName: "givery/track-scala-2.12"
+  cacheDirs:
+    - "/root/.ivy2"
+    - "/root/.sbt"
