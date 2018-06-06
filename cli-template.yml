@@ -1,5 +1,5 @@
 build:
-  - sbt stage
+  - sbt -XX:MaxMetaspaceSize=512M stage
 files:
   - build.sbt
   - project/plugins.sbt
